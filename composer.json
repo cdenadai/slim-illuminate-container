@@ -1,0 +1,20 @@
+{
+    "require": {
+        "slim/slim": "3.*",
+        "zeuxisoo/slim-whoops": "0.6.*",
+        "filp/whoops": "2.3.2",
+        "illuminate/container": "~7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acme\\": "libraries/",
+            "Domain\\": "Domain/",
+            "Services\\": "Services/",
+            "Infra\\": "Infra/",
+            "App\\": "Apps/"
+        }
+    },
+    "scripts": {
+        "start": "php -S localhost:8000" 
+    }
+}
